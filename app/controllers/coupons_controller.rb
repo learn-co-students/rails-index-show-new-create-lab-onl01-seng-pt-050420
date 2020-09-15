@@ -8,7 +8,6 @@ class CouponsController < ApplicationController
   end
 
   def create
-    # binding.pry
     @coupon = Coupon.new
     @coupon.coupon_code = params[:coupon][:coupon_code]
     @coupon.store = params[:coupon][:store]
@@ -17,7 +16,6 @@ class CouponsController < ApplicationController
   end
 
   def show
-    # binding.pry
     @coupon = Coupon.find(params[:id])
   end
 
