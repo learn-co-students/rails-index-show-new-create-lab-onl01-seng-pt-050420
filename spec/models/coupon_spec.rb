@@ -8,4 +8,4 @@ describe Coupon do
   it 'can be created' do
     expect(@coupon).to be_valid
   end
-end
+end 

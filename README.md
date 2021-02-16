@@ -18,7 +18,7 @@ This will be a pretty extensive lab that will combine a number of the concepts t
 * Drawing multiple route types
 
 * Integrating route helper methods
-
+ 
 * Building out a form and wiring it up to the `create` action
 
 * Linking pages together
